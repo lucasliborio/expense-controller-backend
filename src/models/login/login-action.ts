@@ -1,0 +1,1 @@
+export type LoginTypes = "change-input" | "logged-in"  | "error"
