@@ -8,9 +8,8 @@ const defaultValue: IAuthContextState = {
     credentials: {
         username: '',
         password: ''
-    },
+    }
 }
-
 
 export const AuthContext = createContext({} as IAuthContextModel)
 export const AuthContextProvider = ({ children }: { children: React.ReactElement }) => {

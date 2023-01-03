@@ -1,4 +1,4 @@
-import { Button,Stack, TextField } from "@mui/material"
+import { Button, Stack, TextField } from "@mui/material"
 import { useContext } from "react"
 import { AuthContext } from "../../context/login/auth-context"
 import { CustomContainer } from "../container/custom-container"
@@ -35,7 +35,7 @@ export const AuthFormComponent = () => {
           )
         })}
         <Button
-          style={{ backgroundColor: "#3BD80D",color:"#363636" }}
+          style={{ backgroundColor: "#3BD80D", color: "#363636" }}
           variant="contained"
           fullWidth={true}
         >

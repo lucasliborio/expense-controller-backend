@@ -15,7 +15,7 @@ export const login = (dispatch: React.Dispatch<Action>) => async (credentials: L
       dispatch({ type: 'logged-in', payload: { token, profileId, username } })
     }
   } catch (err: any) {
-    dispatch({type: 'error',})
+    dispatch({ type: 'error' })
   }
 }
 
